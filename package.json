@@ -1,0 +1,42 @@
+{
+  "name": "pown-proxy",
+  "version": "0.0.0",
+  "description": "Pownage guaranteed",
+  "bin": {
+    "pown-proxy": "bin/proxy.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "proxy": "POWN_ROOT=. pown proxy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pownjs/pown-proxy.git"
+  },
+  "keywords": [
+    "exploit",
+    "framework"
+  ],
+  "author": "pdp <pdp@gnucitizen.org>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pownjs/pown-proxy/issues"
+  },
+  "homepage": "https://github.com/pownjs/pown-proxy#readme",
+  "devDependencies": {
+    "pown-cli": "^0.3.0"
+  },
+  "pown": {
+    "commands": [
+      "lib/command.js"
+    ]
+  },
+  "dependencies": {
+    "async": "^2.1.5",
+    "chalk": "^1.1.3",
+    "node-proxify": "^0.5.0",
+    "opn": "^4.0.2",
+    "ws": "^2.2.1"
+  }
+}
