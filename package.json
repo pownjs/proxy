@@ -1,6 +1,6 @@
 {
   "name": "pown-proxy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pownage guaranteed",
   "bin": {
     "pown-proxy": "bin/proxy.js"
