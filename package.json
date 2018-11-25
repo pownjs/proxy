@@ -7,7 +7,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "proxy": "POWN_ROOT=. pown proxy"
+    "command": "POWN_ROOT=. pown proxy"
   },
   "repository": {
     "type": "git",
