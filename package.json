@@ -2,12 +2,10 @@
   "name": "pown-proxy",
   "version": "0.0.1",
   "description": "Pownage guaranteed",
-  "bin": {
-    "pown-proxy": "bin/proxy.js"
-  },
   "main": "lib/index.js",
   "scripts": {
-    "command": "POWN_ROOT=. pown proxy"
+    "proxy": "POWN_ROOT=. pown-cli proxy",
+    "text": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,7 +23,7 @@
   },
   "homepage": "https://github.com/pownjs/pown-proxy#readme",
   "devDependencies": {
-    "pown-cli": "^0.3.0"
+    "@pown/cli": "^2.0.5"
   },
   "pown": {
     "commands": [
@@ -33,10 +31,13 @@
     ]
   },
   "dependencies": {
+    "@pown/blessed": "^2.0.3",
     "async": "^2.6.1",
-    "chalk": "^2.4.1",
+    "debounce": "^1.2.0",
+    "mkdirp": "^0.5.1",
     "node-proxify": "^1.6.3",
     "opn": "^5.4.0",
+    "wasm-brotli": "^1.0.2",
     "ws": "^6.1.2"
   }
 }
