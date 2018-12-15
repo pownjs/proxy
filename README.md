@@ -6,7 +6,13 @@ Pown Proxy is a versatile web debugging proxy. You can use the proxy to monitor,
 
 ## Quickstart
 
-Install this module from the root of your project:
+If installed globally as part of [Pown.js](https://github.com/pownjs/pown) invoke like this:
+
+```sh
+$ pown proxy
+```
+
+Otherwise install this module from the root of your project:
 
 ```sh
 $ npm install @pown/proxy --save
@@ -16,12 +22,6 @@ Once done, invoke pown proxy like this:
 
 ```sh
 $ ./node_modules/.bin/pown-cli proxy
-```
-
-If installed globally or as part of Pown.js distribution invoke like this:
-
-```sh
-$ pown proxy
 ```
 
 ## Usage
