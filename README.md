@@ -54,8 +54,27 @@ Options:
 
 ## Text Mode
 
-Pown Proxy comes with intriguing text-based user interface. The interface resembles popular security tools like Burp, ZAP and SecApps's HTTPView, but only utilizing console capabilities such as ANSI escape sequences.
+Pown Proxy comes with intriguing text-based user interface available via the `-t` flag. The interface resembles popular security tools such as Burp, ZAP and SecApps' HTTPView, but only utilizing console capabilities such as ANSI escape sequences.
 
 ![](https://media.githubusercontent.com/media/pownjs/pown-proxy/master/screenshots/01.png)
 ![](https://media.githubusercontent.com/media/pownjs/pown-proxy/master/screenshots/02.png)
 ![](https://media.githubusercontent.com/media/pownjs/pown-proxy/master/screenshots/03.png)
+
+## Web Socket Mode
+
+Pown Proxy provides a handy web-sockets interface backed by a simple binary protocol to interface with other tools, thus allowing it to be used as a backend proxy service. This technique is used to power tools such as SecApps' HTTPView.
+
+The Web Socket Mode can be accessed via the `-s` and `--ws` flags.
+
+## Improvements
+
+While Pown Proxy is a great tool it still requires some work to be truly amazing. In no particular order here is the current wish list:
+
+* The ability to integrate to one or many web socket servers like SecApps' HTTPView.
+* Extension system so that additional features can be added with the help of user-supplied modules.
+* Active interception feature (already possible but no UI)
+* Reply feature
+
+## Credits
+
+This tool will not be possible without the awesome Open Source community that exists around Node.js. However, all of this work is heavily inspired and in many cases directly borrowed from SecApps' HTTPView.
