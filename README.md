@@ -73,7 +73,7 @@ While Pown Proxy is a great tool it still requires some work to be truly amazing
 * The ability to integrate to one or many web socket servers like SecApps' HTTPView.
 * Extension system so that additional features can be added with the help of user-supplied modules.
 * Active interception feature (already possible but no UI)
-* Reply feature
+* Request reply feature (already possible but no UI)
 
 ## Credits
 
