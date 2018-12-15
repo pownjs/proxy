@@ -56,6 +56,6 @@ Options:
 
 Pown Proxy comes with intriguing text-based user interface. The interface resembles popular security tools like Burp, ZAP and SecApps's HTTPView, but only utilizing console capabilities such as ANSI escape sequences.
 
-![](https://media.githubusercontent.com/media/pownjs/pown-proxy/master/screenshots//Screenshot 2018-12-14 at 23.09.58.png)
-![](./screenshots/Screenshot 2018-12-14 at 23.12.22.png)
-![](./screenshots/Screenshot 2018-12-14 at 23.12.35.png)
+![](https://media.githubusercontent.com/media/pownjs/pown-proxy/master/screenshots/01.png)
+![](https://media.githubusercontent.com/media/pownjs/pown-proxy/master/screenshots/02.png)
+![](https://media.githubusercontent.com/media/pownjs/pown-proxy/master/screenshots/03.png)
