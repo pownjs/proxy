@@ -24,7 +24,8 @@
   "homepage": "https://github.com/pownjs/pown-proxy#readme",
   "devDependencies": {
     "@pown/blessed": "^2.0.3",
-    "@pown/cli": "^2.0.6"
+    "@pown/cli": "^2.0.6",
+    "@pown/preferences": "^2.0.0"
   },
   "pown": {
     "commands": [
