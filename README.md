@@ -67,6 +67,17 @@ Pown Proxy provides a handy WebSocket-based API, backed by a simple binary proto
 
 The WebSocket server can be accessed via the `-s` and `--ws-server` flags. You can also connect to existing servers with the `-c` and `--ws-client` flags. This opens some interesting use-cases. For example you could start a proxy server in headless-mode (default) and connect to it with the text mode client.
 
+```sh
+$ pown proxy -s
+* proxy listening on :::8080
+* web socket listening on 0.0.0.0:9090
+! connect to ws://127.0.0.1:9090
+```
+
+```sh
+$ pown proxy -c ws://127.0.0.1:9090 -t
+```
+
 ## Improvements
 
 While Pown Proxy is a great tool it still requires some work to be truly amazing. In no particular order here is the current wish list:
