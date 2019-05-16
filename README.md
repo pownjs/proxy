@@ -1,4 +1,6 @@
 [![Follow on Twitter](https://img.shields.io/twitter/follow/pownjs.svg?logo=twitter)](https://twitter.com/pownjs)
+[![NPM](https://img.shields.io/npm/v/@pown/proxy.svg)](https://www.npmjs.com/package/@pown/proxy)
+[![Fury](https://img.shields.io/badge/version-2x%20Fury-red.svg)](https://github.com/pownjs/lobby)
 
 # Pown Proxy
 
@@ -25,6 +27,8 @@ $ ./node_modules/.bin/pown-cli proxy
 ```
 
 ## Usage
+
+> **WARNING**: This pown command is currently under development and as a result will be subject to breaking changes.
 
 ```
 pown proxy [options]
