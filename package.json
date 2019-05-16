@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/pownjs/pown-proxy#readme",
   "devDependencies": {
-    "@pown/blessed": "^2.0.3",
-    "@pown/cli": "^2.0.6",
-    "@pown/preferences": "^2.0.0"
+    "@pown/blessed": "^2.2.1",
+    "@pown/cli": "^2.14.1",
+    "@pown/preferences": "^2.3.0"
   },
   "pown": {
     "commands": [
@@ -33,11 +33,10 @@
     ]
   },
   "dependencies": {
-    "debounce": "^1.2.0",
     "mkdirp": "^0.5.1",
     "node-proxify": "^1.6.3",
-    "opn": "^5.4.0",
+    "opn": "^5.5.0",
     "wasm-brotli": "^1.0.2",
-    "ws": "^6.1.2"
+    "ws": "^6.2.1"
   }
 }
